@@ -27,7 +27,7 @@ However, after several trials, it was seen that original DbScan algorithm create
   <tr style="border:0px; border-width:0px;">
     <td style="border:0px; border-width:0px;"><img src="https://github.com/tuncgultekin/mappointclustering/blob/master/Graphs/fig3.png" alt></td>   
     <td style="border:0px; border-width:0px;">--> Zoom Out --></td>
-    <td style="border:0px; border-width:0px;"><img src="https://github.com/tuncgultekin/mappointclustering/blob/master/Graphs/fig3.png" alt></td>
+    <td style="border:0px; border-width:0px;"><img src="https://github.com/tuncgultekin/mappointclustering/blob/master/Graphs/fig4.png" alt></td>
   </tr> 
 </table>
 <p><em>Fig - 3 Problem of the original DbScan Algorithm</em></p>
