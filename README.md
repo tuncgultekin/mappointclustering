@@ -43,7 +43,7 @@ The final implementation can be seen on /MapClustering/Utils/DbScanClusteringUti
 After doing some research on map point clustering techniques, it was learnt that grid-based point clustering methods is used by major map providers such as google maps (https://developers.google.com/maps/documentation/javascript/marker-clustering). To do so, a grid-based clustering algorithm is designed and implemented. 
 Grid based algorithm firstly, divides the map into the equal sized cells. Widths and heights of the cells are equal to the map icon size. Then the algorithm puts points into the appropriate cells with respect to point coordinates. Point overlap possibility in any cell is greater than 0 so the algorithm considers the first points in cells as centroids and creates clusters from non-empty cells. Actual implementation of the algorithm can be seen on /MapClustering/Utils/GridClusteringUtils.cs
 
-# b) Results and Comparison
+# Results and Comparison
 Modified DbScan algorithm provides better results than grid-based algorithm. Its point clusters are robust and stable, and they are not affected by map-drag operations. On the other hand, its computational complexity is O(n^2).
 
 This implementation of grid-based algorithm has better computational complexity O(n) than Modified DbScan O(n^2). However, resulting clusters are affected by map-drag operations. This problem can be fixed by adding some extra control logic, but this may degrade its performance.
